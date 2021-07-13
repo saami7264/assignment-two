@@ -119,31 +119,30 @@ width: 556px;
 
 /* -----Footer Styles----- */
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 footer img{
     height: 110px;
     width: 450px;
-    position: relative;
-    top: 40px;
-    left: 445px;
 }
 .icons{
-    position: relative;
-    top: 40px;
     display: flex;
     justify-content: center;
+    padding-left: 130px;
+    padding-top: 20px;
 }
 .icons a{
     margin-right: 30px;
     color:midnightblue;
     background-color: white;
 }
-.fab{
-    height: 60px;
-    width: 60px;
-}
 .copyright-text{
     padding-top: 25px;
-    padding-right: 75px;
+    padding-left: 95px;
     color: gray;
     text-align: center;
 }
@@ -178,15 +177,11 @@ footer img{
         width: 250%;
     }
     footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    left: -190px;
-    }
-    .copyright-text{
-        position: relative;
-        right: -525px;
-    }
-    .icons{
-        position: relative;
-        right: -525px;
-    }
+    left: 275px;
+    }  
 }
