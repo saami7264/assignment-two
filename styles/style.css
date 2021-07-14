@@ -39,6 +39,10 @@ a:hover{
 height: 438px;
 width: 556px;
 }
+#animation:hover{
+    transform: rotate(360deg);
+    transition: transform 2s linear;
+}
 
 /* -----Players Section Styles----- */
 
